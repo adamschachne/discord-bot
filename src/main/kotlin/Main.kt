@@ -18,7 +18,7 @@ fun main() {
 
         JDABuilder(AccountType.BOT)
             .setToken(token)
-            .addEventListeners(Bot())
+            .addEventListeners(CommandListener())
             .build()
     } catch (e: Exception) {
         when (e) {

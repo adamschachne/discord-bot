@@ -17,7 +17,7 @@ Unix
 
 Windows:
     
-    > gradlew.bat clean build
+    > .\gradlew.bat clean build
 
 ## Running
 1. Create a [Discord Application](https://discordapp.com/developers/applications/)
@@ -25,8 +25,8 @@ Windows:
 3. Invite your bot to your guild https://discordapp.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=0&scope=bot
 4. Add your bot token to local.properties
 
-<a/>
-
-    $ echo "token=YOUR TOKEN" > local.properties
-    $ java -jar build/libs/discord-bot-1.0-SNAPSHOT.jar
+        $ echo "token=YOUR TOKEN" > local.properties
+5. Run the bot
+        
+        $ java -jar build/libs/discord-bot-1.0-SNAPSHOT.jar
 
